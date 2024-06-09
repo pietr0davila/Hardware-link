@@ -1,0 +1,153 @@
+@font-face {
+    font-family: "Poppins";
+    src: url(../fonts/Poppins/Poppins-Black.ttf);
+}
+@font-face {
+    font-family: "Ubuntu Sans Mono";
+    src: url(../fonts/Ubuntu_Sans_Mono/UbuntuSansMono-VariableFont_wght.ttf);
+}
+:root{
+    --ubuntu-font: "Ubuntu Sans Mono", sans-serif;
+    --poppins-font: "Poppins", sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    font-family: var(--poppins-font), Arial, Helvetica, sans-serif;
+    background-color: #171717;
+    color: #fff;
+}
+.burguer {
+    background-color: #541d97;
+    padding: 8px;
+    text-align: center;
+    font-size: 25px;
+}
+.burguer i{
+    transition: transform 0.5s ease-in-out;
+
+}
+.burguer i:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.collapsed{
+    position: absolute;
+    top: -100%;
+    width: 100%;
+    height: 30vh;
+    background-color: rgb(37, 37, 37);
+    z-index: 100;
+    transition: top 1s ease-in-out;
+
+}
+.collapsed a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 8px 8px 8px;
+    color: whitesmoke;
+    text-decoration: none;
+}
+.collapsed a i{
+    margin-right: 7px;
+}
+.collapsed .close-icon{
+    position: absolute;
+    left: 92%;
+    font-size: 1.5em;
+    transition: transform 0.5s ease-in-out;
+}
+.collapsed .close-icon:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.overflow-menu{
+    z-index: 1;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.507);
+    transition: opacity 0.5s ease-in;
+    opacity: 0  ;
+}
+.main-title {
+    margin-left: 0px;
+    text-align: left;
+    padding: 50px 20px;
+}
+.main-title h1 {
+    font-size: 24px;
+}
+.main-title h1 span{
+    font-family: var(--ubuntu-font), Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: bolder;
+}
+.main-title p {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.section {
+    box-shadow: 1px -2px 13px white;
+    padding: 20px;
+    background-color: #4B0078;
+    text-align: center;
+    margin: 20px;
+    border-radius: 10px;
+}
+.section img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+.steps {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0;
+}
+.step {
+    background-color: #6200EA;
+    padding: 20px;
+    border-radius: 10px;
+    flex: 1;
+    max-width: 300px;
+}
+.step h2 {
+    font-size: 24px;
+    margin: 0;
+}
+.learn-more {
+    position: absolute;
+    top: 240%;
+    left: 50%;
+    transform: translate(-50%);
+    width: 80%;
+    height: 30vh;
+    text-align: center;
+    margin: 20px 0;
+    background-color: #4B0078;
+    border-radius: 8px;
+}
+.learn-more h3{
+    font-family: var(--ubuntu-font);
+}
+.learn-more p{
+    font-size: 13px;
+    font-family: var(--poppins-font);
+}
+.learn-more button {
+    border: none;
+    font-family: var(--ubuntu-font);
+    background-color: #00C853;
+    color: #fff;
+    padding: 5px;
+    width: 60%;
+    border-radius: 10px;
+    text-decoration: none;
+    text-wrap: nowrap;
+    font-size: 20px;
+}
