@@ -158,29 +158,94 @@ body {
 .step {
     text-wrap: nowrap;
     width: 80vw;
-    height: 5px;
-    text-align: center;
-    background-color: #5300868a;
-    padding: 0 20px 20px 0px;
+    height: 15%;
+    text-align: left;
+    background-color: transparent;
+    padding: 0 20px 20px 20px;
     margin: 10px;
     border-radius: 10px;
     flex: 1;
     overflow: hidden;
 }
+.step img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.step .number{
+    text-align: left;
+    font-size: 28px;
+    position: absolute;
+    left: 17%;
+}
+.step .number2{
+    text-align: left;
+    font-size: 28px;
+    left: 25%;
+    position: absolute;
+}
+.step .step-text{
+    font-family: var(--ibm);
+    font-size: 9px;
+    position: absolute;
+    top: 132%;
+    left: 28%;
+}
+.step .step-text2{
+    font-family: var(--ibm);
+    font-size: 10px;
+    position: absolute;
+    top: 148%;
+    left: 37%;
+}
+
+.step .step-text3{
+    font-family: var(--ibm);
+    font-size: 12px;
+    position: absolute;
+    top: 163.5%;
+    left: 28%;
+}
+.step .step-text4{
+    font-family: var(--ibm);
+    font-size: 9px;
+    position: absolute;
+    top: 180%;
+    left: 37%;
+}
+.step .step-text5{
+    font-family: var(--ibm);
+    font-size: 12px;
+    position: absolute;
+    top: 195.5%;
+    left: 30%;
+}
+.step:nth-child(2), .step:nth-child(4){
+    margin-left: 35px;
+}
 .step h2 {
-    font-size: 15px;
+    font-size: 14px;
     margin: 0;
+    padding: 0;
+}
+footer{
+    background-image: url("../content/bg3.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 50vh;
 }
 .learn-more {
     position: absolute;
-    top: 240%;
+    top: 205%;
     left: 50%;
     transform: translate(-50%);
     width: 80%;
     height: 30vh;
     text-align: center;
     margin: 20px 0;
-    background-color: #4B0078;
+    margin-bottom: 15px;
+    background-color: #7900c485;
     border-radius: 8px;
 }
 .learn-more h3 {
@@ -194,6 +259,7 @@ body {
     border: none;
     font-family: var(--ubuntu-font);
     background-color: #00C853;
+    box-shadow: 1px 1px 3px black;
     color: #fff;
     padding: 5px;
     width: 60%;
