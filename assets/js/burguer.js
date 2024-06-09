@@ -5,25 +5,25 @@ const menu_overflow = document.querySelector("div#overflow-menu");
 let openmenu = false;
 
 menu.addEventListener("click", function() {
-    if (!openmenu) {
-        menu_list.style.top = "0";
-        menu.style.top = "-40%";
+    if (!openmenu) { // Verifica se o menu não está aberto
+        menu_list.style.top = "0"; // Abre o menu
         menu_overflow.style.display = "block";
-        menu_overflow.style.opacity = "1";
+        setTimeout(() => {
+            menu_overflow.style.opacity = "1";
+        }, 0);
         xmark.style.display = "block";
-        openmenu = !openmenu;
+        openmenu = true; // Atualiza o estado do menu para aberto
     }
 });
 
 xmark.addEventListener("click", function() {
-    if (openmenu) {
-        menu_list.style.top = "-40%";
+    if (openmenu) { // Verifica se o menu está aberto
+        menu_list.style.top = "-50%"; // Fecha o menu
         xmark.style.display = "none";
-        menu.style.top = "0";
         menu_overflow.style.opacity = "0";
         setTimeout(() => {
             menu_overflow.style.display = "none";
         }, 300);
-        openmenu = !openmenu;
+        openmenu = false; // Atualiza o estado do menu para fechado
     }
 });
