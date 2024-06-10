@@ -1,218 +1,218 @@
-@media screen and (min-width: 320px) {
-
-    .step h2{
-        font-size: 12px !important;
-    }
+@media screen and (min-width: 390px) and (min-height: 844px){
     .step .step-text {
-        top: 119%;
+        top: 65.5% !important;
         margin-left: -5px;
     }
-
+    
     .step .step-text2 {
-        top: 135%;
+        top: 76% !important;
     }
-
+    
     .step .step-text3 {
-        top: 151%;
+        top: 86% !important;
     }
-
+    
     .step .step-text4 {
-        top: 167.5%;
-        left: 37%;
+        top: 96.5% !important;
     }
-
+    
     .step .step-text5 {
-        top: 183%;
-        left: 30%;
+        font-size: 15px;
+        top: 107% !important;
     }
-     
-    .step .number {
-        margin-top: 1px;
-        left: 16%;
-        font-size: 34px;
+    .learn-more{
+        top: 115% !important;
     }
-
-    .step .number2 {
-        font-size: 34px;
-        left: 23.5%;
+}
+@media screen and (min-width: 414px) and (min-height: 896px){
+    .step .step-text {
+        top: 58.5% !important;
+    }
+    
+    .step .step-text2 {
+        top: 68.5% !important;
+    }
+    
+    .step .step-text3 {
+        top:79% !important;
+    }
+    
+    .step .step-text4 {
+        top: 89% !important;
+    }
+    
+    .step .step-text5 {
+        top: 99% !important;
     }
     
 }
-
-@media screen and (min-width: 355px) {
-    .step .step-text,
-    .step .step-text2,
-    .step .step-text3,
-    .step .step-text4,
-    .step .step-text5 {
-        font-size: 14px !important;
-    }
-    .step .step-text{
-        top: 116%;
+@media screen and (min-width: 375px) and (min-height: 667px){
+    .step .step-text {
+        top: 82.9%;
         margin-left: -7px;
     }
+    
     .step .step-text2 {
+        top: 95.5%;
+    }
+    
+    .step .step-text3 {
+        top:108.5%;
+    }
+    
+    .step .step-text4 {
+        top: 121%;
+    }
+    
+    .step .step-text5 {
+        font-size: 15px;
         top: 133.5%;
     }
-
-    .step .step-text3 {
-        top: 151%;
+    .learn-more{
+        top: 145%;
     }
-
-    .step .step-text4 {
-        top: 168.5%;
-    }
-
-    .step .step-text5 {
-        top: 186%;
-        left: 30%;
-    }
-        
-    .step .number {
-        margin-top: 1px;
-        left: 15.2%;
-        font-size: 34px;
-    }
-
-    .step .number2 {
-        font-size: 28px;
-        left: 23%;
+    .step .number2{
+        left: 22% !important;
     }
 }
-@media screen and (min-width: 368px){
-    .step .step-text{
-        top: 112%;
-        margin-left: -7px;
-    }
-    .step .step-text2 {
-        top: 130%;
-    }
-
-    .step .step-text3 {
-        top: 147.5%;
-    }
-
-    .step .step-text4 {
-        top: 165%;
-        margin-left: -15px;
-    }
-
-    .step .step-text5 {
-        top: 183%;
-        left: 30%;
-    }
-        
-    .step .number {
-        margin-top: 5px;
-        left: 15%;
-        font-size: 34px;
-    }
-
-    .step .number2 {
-        font-size: 34px;
-        left: 21.5%;
+@media screen and (min-width: 430px) and (min-height: 932px){
+    .step .step-text {
+        top: 54.5% !important;
+        font-size: 16px;
     }
     
-.learn-more button {
-    background-color: #068e3f;
-    box-shadow: 2px 2px 5px black;
-    color: #fff;
-    padding: 1px;
-    width: 40%;
-    height: 20%;
-    border-radius: 10px;
-    text-decoration: none;
-    text-wrap: nowrap;
-    font-size: 15px;
-}
-}
-@media screen and (min-width: 400px){
-    .step .step-text{
-        top: 106%;
-        margin-left: -7px;
-        font-size: 15px !important; 
-    }
     .step .step-text2 {
-        top: 125%;
-        margin-left: -17px;
-        font-size: 15px !important; 
+        top: 64.5% !important;
+        font-size: 16px;
     }
-
+    
     .step .step-text3 {
-        top: 143.5%;
-        margin-left: -8px;
-        font-size: 15px !important; 
+        font-size: 16px;
+        top: 74.5% !important;
     }
-
+    
     .step .step-text4 {
-        top: 162%;
-        margin-left: -15px;
-        font-size: 15px !important; 
+        top: 84.5% !important;
+        font-size: 16px;
     }
-
+    
     .step .step-text5 {
-        top: 181%;
-        margin-left: -15px;
-        left: 30%;
-        font-size: 15px !important; 
-
+        font-size: 16px;
+        top: 94.5% !important;
     }
-        
-    .step .number {
-        margin-top: 5px;
-        left: 15%;
-        font-size: 34px;
+    .learn-more{
+        top: 115% !important;
     }
-
-    .step .number2 {
-        font-size: 34px;
-        left: 21.5%;
+    .step .number2{
+        left: 22% !important;
     }
+    
 }
-@media screen and (min-width: 430px){
-    .step .step-text{
-        top: 94%;
-        margin-left: -14px;
-        font-size: 18px !important; 
+
+@media screen and (min-width: 360px) and (min-height: 740px){
+    .step .step-text {
+        top: 77% !important;
+        font-size: 13px;
     }
+    
     .step .step-text2 {
-        top: 114%;
+        top: 88% !important;
+        font-size: 13px;
+    }
+    
+    .step .step-text3 {
+        font-size: 13px;
+        top: 99.5% !important;
+    }
+    
+    .step .step-text4 {
+        top: 110.5% !important;
+        font-size: 13px;
+    }
+    
+    .step .step-text5 {
+        font-size: 16px;
+        top: 121.5% !important;
+    }
+    .learn-more{
+        top: 130% !important;
+    }
+    
+}
+
+@media screen and (min-width: 768px) and (min-height: 1024px){
+    .main-title{
+        height: 40vh;
+    }
+    .main-title h1 span{
+        text-wrap: wrap;    
+    }
+    .section{
+        display: none;
+    }
+    .section-img img{
+        display: block;
+    }
+    .step {
+        margin-left: 45px;
+        border-radius: 10px;
+        flex: 1;
+        overflow: hidden;
+    }
+    .step:nth-child(2),
+    .step:nth-child(4){
+        margin-left: 85px;
+    }
+    .step .step-text {
+        top: 56.3% !important;
+        font-size: 30px;
+    }
+    
+    .step .step-text2 {
+        top: 71% !important;
+        margin-left: -25px;
+        font-size: 30px;
+    }
+    
+    .step .step-text3 {
+        font-size: 30px;
+        top: 85.5% !important;
+    }
+    
+    .step .step-text4 {
+        top: 100% !important;
+        font-size: 30px;
+        margin-left: -25px;
+    }
+    
+    .step .step-text5 {
+        font-size: 30px;
+        top: 113.5% !important;
         margin-left: -20px;
-        font-size: 18px !important; 
     }
-
-    .step .step-text3 {
-        top: 134.5%;
-        margin-left: -8px;
-        font-size: 18px !important; 
+    .step .number{
+        font-size: 70px !important;
+        left: 14.5%;
     }
-
-    .step .step-text4 {
-        top: 155%;
-        margin-left: -30px;
-        font-size: 20px !important; 
+    .step .number2{
+        font-size: 70px;
+        left: 20% !important;
+        margin-top: 10px;
     }
-
-    .step .step-text5 {
-        top: 176%;
-        margin-left: -15px;
-        left: 30%;
-        font-size: 18px !important; 
-
+    .learn-more{
+        top: 124% !important;
+        width: 50%;
+        font-size: 25px;
+        height: 200px;
     }
-        
-    .step .number {
-        margin-top: 9px;
-        left: 13.5%;
-        font-size: 40px;
+    .learn-more p{
+        font-size: 15px;
+        margin-bottom: 15px;
     }
-
-    .step .number2 {
-        font-size: 40px;
-        margin-top: 8px;
-        left: 18.5%;
+    .learn-more button{
+        width: 40%;
+        height: 40px;
     }
-}
-@media screen and (min-width: 490px){
     
 }
+

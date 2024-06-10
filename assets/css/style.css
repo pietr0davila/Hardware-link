@@ -79,7 +79,7 @@ body {
     position: absolute;
     top: -50%;
     width: 100%;
-    height: 40vh;
+    height: 170px;
     background-color: rgb(37, 37, 37);
     z-index: 100;
     transition: top 1s ease-in-out;
@@ -118,6 +118,7 @@ body {
     background-color: rgba(0, 0, 0, 0.507);
     transition: opacity 0.5s ease-in;
     opacity: 0;
+    overflow: hidden;
 }
 
 .main-title {
@@ -126,7 +127,7 @@ body {
     padding: 10px 50px 50px 20px;
     background-image: url(../content/bg2.png);
     background-size: cover;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 .main-title h1 {
@@ -155,9 +156,11 @@ body {
     width: 100%;
     height: 102vh;
     z-index: 100;
+    overflow: hidden;
 }
 
 .section {
+    overflow: hidden;
     font-family: var(--ubuntu-font);
     background-color: #53008682;
     box-shadow: inset 0px 5px 5px -5px white;
@@ -165,8 +168,8 @@ body {
     margin: 10px 20px 20px 20px;
     padding-top: 1px;
     border-radius: 10px;
-
 }
+
 
 .section h2,
 .section p {
@@ -183,34 +186,32 @@ body {
     font-family: var(--ubuntu-font);
     font-size: 15px;
 }
-
-.border-gradient {
-    width: 100%;
-    height: 2px;
-    margin: 20px 0;
-    text-align: center;
+.section-img img{
+    display: none;
+    width: 100vw;
 }
-
 .steps {
     padding: 10px;
     margin: 20px 0;
     font-family: var(--roboto);
-}
-
-.step {
-    text-wrap: nowrap;
-    width: 80vw;
-    height: 15%;
-    text-align: left;
-    background-color: transparent;
-    padding: 0 20px 20px 20px;
-    margin: 10px;
-    border-radius: 10px;
-    flex: 1;
     overflow: hidden;
 }
 
+    .step {
+        text-wrap: nowrap;
+        width: 80vw;
+        height: 15%;
+        text-align: left;
+        background-color: transparent;
+        padding: 0 20px 20px 20px;
+        margin: 10px;
+        border-radius: 10px;
+        flex: 1;
+        overflow: hidden;
+    }
+
 .step img {
+    overflow: hidden;
     position: relative;
     width: 100%;
     height: 100%;
@@ -218,24 +219,26 @@ body {
 
 .step .number {
     text-align: left;
-    font-size: 28px;
+    font-size: 35px;
     position: absolute;
-    left: 17%;
+    left: 15%;
+    margin-top: 8px;
 }
 
 .step .number2 {
     text-align: left;
-    font-size: 28px;
-    left: 25%;
+    font-size: 35px;
+    margin-top: 5px;
+    left: 20.5% !important;
     position: absolute;
 }
 
 .step .step-text {
     font-family: var(--roboto);
     font-weight: lighter;
-    font-size: var(--font-size);
+    font-size: 14px;
     position: absolute;
-    top: 128.5%;
+    top: 55.9%;
     left: 28%;
 }
 
@@ -243,31 +246,34 @@ body {
     font-family: var(--roboto);
     font-size: var(--font-size);
     position: absolute;
-    top: 143.5%;
+    top: 65.5%;
+    font-size: 14px;
+    margin-left: -15px;
     left: 37%;
 }
 
 .step .step-text3 {
     font-family: var(--roboto);
-    font-size: var(--font-size);
+    font-size: 14px;
     position: absolute;
-    top: 159%;
+    top: 75.7%;
     left: 28%;
 }
 
 .step .step-text4 {
     font-family: var(--roboto);
-    font-size: var(--font-size);
+    font-size: 14px;
+    margin-left: -10px;
     position: absolute;
-    top: 174.5%;
+    top: 85.7%;
     left: 37%;
 }
 
 .step .step-text5 {
     font-family: var(--roboto);
-    font-size: var(--font-size);
+    font-size: 14px;
     position: absolute;
-    top: 189.5%;
+    top: 95.5%;
     left: 30%;
 }
 
@@ -281,22 +287,14 @@ body {
     padding: 0;
 }
 
-footer {
-    background-image: url("../content/bg3.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100vw;
-    height: 50vh;
-}
-
 .learn-more {
     box-shadow: inset 0px 5px 5px -5px white;
     position: absolute;
-    top: 205%;
+    top: 110%;
     left: 50%;
     transform: translate(-50%);
     width: 80%;
-    height: 30%;
+    height: 150px;
     text-align: center;
     margin: 10px 0;
     margin-bottom: 15px;
