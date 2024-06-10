@@ -1,0 +1,218 @@
+@media screen and (min-width: 320px) {
+
+    .step h2{
+        font-size: 12px !important;
+    }
+    .step .step-text {
+        top: 119%;
+        margin-left: -5px;
+    }
+
+    .step .step-text2 {
+        top: 135%;
+    }
+
+    .step .step-text3 {
+        top: 151%;
+    }
+
+    .step .step-text4 {
+        top: 167.5%;
+        left: 37%;
+    }
+
+    .step .step-text5 {
+        top: 183%;
+        left: 30%;
+    }
+     
+    .step .number {
+        margin-top: 1px;
+        left: 16%;
+        font-size: 34px;
+    }
+
+    .step .number2 {
+        font-size: 34px;
+        left: 23.5%;
+    }
+    
+}
+
+@media screen and (min-width: 355px) {
+    .step .step-text,
+    .step .step-text2,
+    .step .step-text3,
+    .step .step-text4,
+    .step .step-text5 {
+        font-size: 14px !important;
+    }
+    .step .step-text{
+        top: 116%;
+        margin-left: -7px;
+    }
+    .step .step-text2 {
+        top: 133.5%;
+    }
+
+    .step .step-text3 {
+        top: 151%;
+    }
+
+    .step .step-text4 {
+        top: 168.5%;
+    }
+
+    .step .step-text5 {
+        top: 186%;
+        left: 30%;
+    }
+        
+    .step .number {
+        margin-top: 1px;
+        left: 15.2%;
+        font-size: 34px;
+    }
+
+    .step .number2 {
+        font-size: 28px;
+        left: 23%;
+    }
+}
+@media screen and (min-width: 368px){
+    .step .step-text{
+        top: 112%;
+        margin-left: -7px;
+    }
+    .step .step-text2 {
+        top: 130%;
+    }
+
+    .step .step-text3 {
+        top: 147.5%;
+    }
+
+    .step .step-text4 {
+        top: 165%;
+        margin-left: -15px;
+    }
+
+    .step .step-text5 {
+        top: 183%;
+        left: 30%;
+    }
+        
+    .step .number {
+        margin-top: 5px;
+        left: 15%;
+        font-size: 34px;
+    }
+
+    .step .number2 {
+        font-size: 34px;
+        left: 21.5%;
+    }
+    
+.learn-more button {
+    background-color: #068e3f;
+    box-shadow: 2px 2px 5px black;
+    color: #fff;
+    padding: 1px;
+    width: 40%;
+    height: 20%;
+    border-radius: 10px;
+    text-decoration: none;
+    text-wrap: nowrap;
+    font-size: 15px;
+}
+}
+@media screen and (min-width: 400px){
+    .step .step-text{
+        top: 106%;
+        margin-left: -7px;
+        font-size: 15px !important; 
+    }
+    .step .step-text2 {
+        top: 125%;
+        margin-left: -17px;
+        font-size: 15px !important; 
+    }
+
+    .step .step-text3 {
+        top: 143.5%;
+        margin-left: -8px;
+        font-size: 15px !important; 
+    }
+
+    .step .step-text4 {
+        top: 162%;
+        margin-left: -15px;
+        font-size: 15px !important; 
+    }
+
+    .step .step-text5 {
+        top: 181%;
+        margin-left: -15px;
+        left: 30%;
+        font-size: 15px !important; 
+
+    }
+        
+    .step .number {
+        margin-top: 5px;
+        left: 15%;
+        font-size: 34px;
+    }
+
+    .step .number2 {
+        font-size: 34px;
+        left: 21.5%;
+    }
+}
+@media screen and (min-width: 430px){
+    .step .step-text{
+        top: 94%;
+        margin-left: -14px;
+        font-size: 18px !important; 
+    }
+    .step .step-text2 {
+        top: 114%;
+        margin-left: -20px;
+        font-size: 18px !important; 
+    }
+
+    .step .step-text3 {
+        top: 134.5%;
+        margin-left: -8px;
+        font-size: 18px !important; 
+    }
+
+    .step .step-text4 {
+        top: 155%;
+        margin-left: -30px;
+        font-size: 20px !important; 
+    }
+
+    .step .step-text5 {
+        top: 176%;
+        margin-left: -15px;
+        left: 30%;
+        font-size: 18px !important; 
+
+    }
+        
+    .step .number {
+        margin-top: 9px;
+        left: 13.5%;
+        font-size: 40px;
+    }
+
+    .step .number2 {
+        font-size: 40px;
+        margin-top: 8px;
+        left: 18.5%;
+    }
+}
+@media screen and (min-width: 490px){
+    
+}
