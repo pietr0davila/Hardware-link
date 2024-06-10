@@ -1,72 +1,85 @@
 @media screen and (min-width: 390px) and (min-height: 844px){
-    .step .step-text {
-        top: 65.5% !important;
-        margin-left: -5px;
-    }
-    
-    .step .step-text2 {
-        top: 76% !important;
-    }
-    
-    .step .step-text3 {
-        top: 86% !important;
-    }
-    
-    .step .step-text4 {
-        top: 96.5% !important;
-    }
-    
-    .step .step-text5 {
+    .step h2.step-text {
+        top: 63.5% !important;
         font-size: 15px;
-        top: 107% !important;
     }
-    .learn-more{
-        top: 115% !important;
+    
+    .step h2.step-text2 {
+        top: 74% !important;
+        font-size: 15px;
+    }
+    
+    .step h2.step-text3 {
+        top: 84.5% !important;
+        font-size: 15px;
+    }
+    
+    .step h2.step-text4 {
+        top: 94.9% !important;
+    }
+    
+    .step h2.step-text5 {
+        font-size: 15px;
+        top: 105% !important;
+    }
+    div.learn-more{
+        top: 113% !important;
     }
 }
 @media screen and (min-width: 414px) and (min-height: 896px){
-    .step .step-text {
-        top: 58.5% !important;
+    .step h2.step-text {
+        top: 56.6% !important;
+        font-size: 16px !important;
+        margin-left: -15px;
     }
     
-    .step .step-text2 {
-        top: 68.5% !important;
+    .step h2.step-text2 {
+        top: 67% !important;
+        font-size: 16px !important;
     }
     
-    .step .step-text3 {
-        top:79% !important;
+    .step h2.step-text3 {
+        top:77% !important;
+        font-size: 16px !important;
     }
     
-    .step .step-text4 {
-        top: 89% !important;
+    .step h2.step-text4 {
+        top: 87.2% !important;
+        font-size: 16px;
+
     }
     
-    .step .step-text5 {
-        top: 99% !important;
+    .step h2.step-text5 {
+        top: 97% !important;
+        font-size: 16px;
+    }
+    
+    div.learn-more{
+        top: 105% !important;
     }
     
 }
 @media screen and (min-width: 375px) and (min-height: 667px){
     .step .step-text {
-        top: 82.9%;
+        top: 80%;
         margin-left: -7px;
     }
     
     .step .step-text2 {
-        top: 95.5%;
+        top: 93%;
     }
     
     .step .step-text3 {
-        top:108.5%;
+        top:106%;
     }
     
     .step .step-text4 {
-        top: 121%;
+        top: 118.5%;
     }
     
     .step .step-text5 {
         font-size: 15px;
-        top: 133.5%;
+        top: 131.5%;
     }
     .learn-more{
         top: 145%;
@@ -76,29 +89,30 @@
     }
 }
 @media screen and (min-width: 430px) and (min-height: 932px){
-    .step .step-text {
-        top: 54.5% !important;
+    .step h2.step-text {
+        top: 52.5% !important;
         font-size: 16px;
     }
     
-    .step .step-text2 {
-        top: 64.5% !important;
+    .step h2.step-text2 {
+        top: 62.5% !important;
         font-size: 16px;
     }
     
-    .step .step-text3 {
+    .step h2.step-text3 {
         font-size: 16px;
-        top: 74.5% !important;
+        top: 72.5% !important;
     }
     
-    .step .step-text4 {
-        top: 84.5% !important;
+    .step h2.step-text4 {
+        top: 83% !important;
+        margin-left: -15px;
         font-size: 16px;
     }
     
-    .step .step-text5 {
+    .step h2.step-text5 {
         font-size: 16px;
-        top: 94.5% !important;
+        top: 92.9% !important;
     }
     .learn-more{
         top: 115% !important;
@@ -141,11 +155,39 @@
 }
 
 @media screen and (min-width: 768px) and (min-height: 1024px){
+    .burguer{
+        display: none;
+    }
+    .collapsed{
+        top: 0;
+        height: 40px;
+        background-color: transparent;
+    }
+    .collapsed a{
+        display: inline;
+        justify-content: space-around;
+        padding-right: 20px;
+        margin-left: 15px;
+        font-size: 25px;
+        font-family: var(--roboto);
+    }
+    .collapsed .close-icon{
+        display: none;
+    }
     .main-title{
         height: 40vh;
+        padding: 35px;
     }
     .main-title h1 span{
         text-wrap: wrap;    
+        font-size: 80px;
+    }
+    .main-title p.p1{
+        font-size: 50px;
+    }
+    .main-title p.p2{
+        width: 45%;
+        font-size: 25px;
     }
     .section{
         display: none;
@@ -153,7 +195,8 @@
     .section-img img{
         display: block;
     }
-    .step {
+    div.step {
+        height: 20%; 
         margin-left: 45px;
         border-radius: 10px;
         flex: 1;
@@ -163,44 +206,45 @@
     .step:nth-child(4){
         margin-left: 85px;
     }
-    .step .step-text {
-        top: 56.3% !important;
-        font-size: 30px;
+    div.step h2.step-text {
+        top: 77% !important;
+        font-size: 30px !important;
     }
     
-    .step .step-text2 {
-        top: 71% !important;
+    div.step h2.step-text2 {
+        top: 91% !important;
         margin-left: -25px;
-        font-size: 30px;
+        font-size: 30px !important;
     }
     
-    .step .step-text3 {
-        font-size: 30px;
-        top: 85.5% !important;
+    div.step h2.step-text3 {
+        font-size: 30px !important;
+        top: 105.5% !important;
     }
     
-    .step .step-text4 {
-        top: 100% !important;
+    div.step h2.step-text4 {
+        top: 119% !important;
         font-size: 30px;
         margin-left: -25px;
     }
     
-    .step .step-text5 {
-        font-size: 30px;
-        top: 113.5% !important;
+    div.step h2.step-text5 {
+        font-size: 30px !important;
+        top: 134% !important;
         margin-left: -20px;
     }
-    .step .number{
+    div.step span.number{
         font-size: 70px !important;
-        left: 14.5%;
+        left: 13.2% !important;
+        margin-top: 25px !important;
     }
-    .step .number2{
+    div.step span.number2{
+        left: 15% !important;
         font-size: 70px;
-        left: 20% !important;
-        margin-top: 10px;
+        margin-top: 10px !important;
     }
-    .learn-more{
-        top: 124% !important;
+    footer div.learn-more{
+        top: 155vh !important;
         width: 50%;
         font-size: 25px;
         height: 200px;
@@ -216,3 +260,391 @@
     
 }
 
+@media screen and (min-width: 820px) and (min-height: 1180px){
+    .collapsed a{
+        display: inline;
+        justify-content: space-around;
+        padding-right: 20px;
+        padding-left: 20px;
+        font-size: 25px;
+        font-family: var(--roboto);
+    }
+    .main-title p.p2{
+        width: 50%;
+        font-size: 30px;
+    }
+    .step:nth-child(2),
+    .step:nth-child(4){
+        margin-left: 85px;
+    }
+    div.step h2.step-text {
+        top: 74% !important;
+        font-size: 30px !important;
+    }
+    
+    div.step h2.step-text2 {
+        top: 87.5% !important;
+        margin-left: -25px;
+        font-size: 30px !important;
+    }
+    
+    div.step h2.step-text3 {
+        font-size: 30px !important;
+        top: 100% !important;
+    }
+    
+    div.step h2.step-text4 {
+        top: 113% !important;
+        font-size: 30px;
+        margin-left: -25px;
+    }
+    
+    div.step h2.step-text5 {
+        font-size: 30px !important;
+        top: 126.5% !important;
+        margin-left: -20px;
+    }
+    div.step span.number{
+        margin-top: 15px;
+    }
+    div.step span.number2{
+        left: 19.5% !important;
+        margin-top: 10px;
+    }
+    footer > div.learn-more{
+        top: 140vh !important;
+        width: 60%;
+        font-size: 25px;
+        height: 210px;
+    }
+    .learn-more p{
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+    .learn-more button{
+        width: 40%;
+        height: 40px;
+    }
+    
+}
+
+@media screen and (min-width: 820px) and (min-height: 1180px){
+    .collapsed a{
+        display: inline;
+        justify-content: space-between;
+        padding-right: 20px;
+        padding-left: 20px;
+        margin-top: 10px;
+        font-size: 25px;
+        font-family: var(--roboto);
+    }
+    .main-title{
+        margin-top: 20px;
+    }
+    .main-title p.p2{
+        width: 50%;
+        font-size: 30px;
+    }
+    .step:nth-child(2),
+    .step:nth-child(4){
+        margin-left: 85px;
+    }
+    div.step h2.step-text {
+        top: 77% !important;
+        font-size: 43px !important;
+        margin-left: -35px !important;
+    }
+    
+    div.step h2.step-text2 {
+        top: 91% !important;
+        margin-left: -65px;
+        font-size: 43px !important;
+    }
+    
+    div.step h2.step-text3 {
+        font-size: 43px !important;
+        top: 104.5% !important;
+        margin-left: -35px;
+    }
+    
+    div.step h2.step-text4 {
+        top: 118% !important;
+        font-size: 43px;
+        margin-left: -75px;
+    }
+    
+    div.step h2.step-text5 {
+        font-size: 43px !important;
+        top: 131.5% !important;
+        margin-left: -40px;
+    }
+    div.step span.number{
+        margin-top: 15px;
+
+    }
+    div.step span.number2{
+        left: 19.5% !important;
+        margin-top: 10px;
+    }
+    footer > div.learn-more{
+        top: 140vh !important;
+        width: 60%;
+        font-size: 25px;
+        height: 210px;
+    }
+    .learn-more p{
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+    .learn-more button{
+        width: 40%;
+        height: 40px;
+    }
+@media screen and (min-width: 412px) and (min-height: 915px){
+    .step h2.step-text {
+        top: 55.5% !important;
+        margin-left: -10px;
+        font-size: 16px;
+    }
+    
+    .step h2.step-text2 {
+        top: 65.5% !important;
+        font-size: 16px;
+    }
+    
+    .step h2.step-text3 {
+        font-size: 16px;
+        top: 75.5% !important;
+    }
+    
+    .step h2.step-text4 {
+        top: 85% !important;
+        margin-left: -15px;
+        font-size: 16px;
+    }
+    
+    .step h2.step-text5 {
+        font-size: 16px;
+        top: 95% !important;
+    }
+    div.learn-more{
+        top: 103% !important;
+    }
+    .step .number2{
+        left: 22% !important;
+    }
+}}
+
+@media screen and (min-width: 1024px) and (min-height: 1366px){
+    .burguer{
+        display: none;
+    }
+    .collapsed{
+        top: 0;
+        height: 40px;
+        background-color: transparent;
+    }
+    .collapsed a{
+        display: inline;
+        justify-content: space-around;
+        padding-right: 20px;
+        margin-left: 15px;
+        font-size: 25px;
+        font-family: var(--roboto);
+    }
+    .collapsed .close-icon{
+        display: none;
+    }
+    .main-title{
+        height: 40vh;
+        padding: 35px;
+    }
+    .main-title h1 span{
+        text-wrap: wrap;    
+        font-size: 80px;
+    }
+    .main-title p.p1{
+        font-size: 50px;
+    }
+    .main-title p.p2{
+        width: 45%;
+        font-size: 25px;
+    }
+    .section{
+        display: none;
+    }
+    .section-img img{
+        display: block;
+    }
+    div.step {
+        height: 20%; 
+        margin-left: 45px;
+        border-radius: 10px;
+        flex: 1;
+        overflow: hidden;
+    }
+    .step:nth-child(2),
+    .step:nth-child(4){
+        margin-left: 85px;
+    }
+    div.step h2.step-text {
+        top: 77% !important;
+        font-size: 43px !important;
+    }
+    
+    div.step h2.step-text2 {
+        top: 91% !important;
+        margin-left: -75px;
+        font-size: 43px !important;
+    }
+    
+    div.step h2.step-text3 {
+        font-size: 43px !important;
+        top: 104.5% !important;
+    }
+    
+    div.step h2.step-text4 {
+        top: 118% !important;
+        font-size: 43px;
+        margin-left: -75px;
+    }
+    
+    div.step h2.step-text5 {
+        font-size: 43px !important;
+        top: 132% !important;
+        margin-left: -30px;
+    }
+    div.step span.number{
+        font-size: 80px !important;
+        left: 13.2% !important;
+        margin-top: 25px !important;
+    }
+    div.step span.number2{
+        left: 17% !important;
+        font-size: 70px;
+        margin-top: 25px !important;
+    }
+    footer div.learn-more{
+        top: 145vh !important;
+        width: 40%;
+        font-size: 25px;
+        height: 190px;
+    }
+    .learn-more p{
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+    .learn-more button{
+        width: 40%;
+        height: 40px;
+    }
+    
+}
+@media screen and (min-width: 344px) and (min-height: 882px){
+    
+    div.step h2.step-text {
+        top: 64.5% !important;
+        font-size: 12px;
+    }
+    
+    div.step h2.step-text2 {
+        top: 73.5% !important;
+        margin-left: 5px;
+        font-size: 12px !important;
+    }
+    
+    div.step h2.step-text3 {
+        font-size: 12px !important;
+        top: 82.5% !important;
+        margin-left: 5px;
+    }
+    
+    div.step h2.step-text4 {
+        top: 91.5% !important;
+        font-size: 12px;
+    }
+    
+    div.step h2.step-text5 {
+        font-size: 12px !important;
+        top: 100.5% !important;
+    }
+    div.step span.number{
+        font-size: 30px !important;
+        left: 16.2% !important;
+        margin-top: 5px !important;
+    }
+    div.step span.number2{
+        left: 23.5% !important;
+        font-size: 30px;
+        margin-top: 5px !important;
+    }
+    footer div.learn-more{
+        top: 110vh !important;
+        width: 85%;
+        font-size: 25px;
+        height: 220px;
+    }
+    .learn-more p{
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+    .learn-more button{
+        width: 40%;
+        height: 40px;
+    }
+}
+
+
+@media screen and (min-width: 412px) and (min-height: 914px){
+    
+    div.step h2.step-text {
+        top: 55.5% !important;
+        font-size: 16px;
+        margin-left: -5px;
+    }
+    
+    div.step h2.step-text2 {
+        top: 65.5% !important;
+        margin-left: -15px;
+        font-size: 16px !important;
+    }
+    
+    div.step h2.step-text3 {
+        font-size: 16px !important;
+        top: 75% !important;
+    }
+    
+    div.step h2.step-text4 {
+        top: 85.5% !important;
+        font-size: 16px;
+    }
+    
+    div.step h2.step-text5 {
+        font-size: 16px !important;
+        top: 95% !important;
+    }
+    div.step span.number{
+        font-size: 30px !important;
+        left: 15% !important;
+        margin-top: 10px !important;
+    }
+    div.step span.number2{
+        left: 21% !important;
+        font-size: 30px;
+        margin-top: 10px !important;
+    }
+    footer div.learn-more{
+        top: 105vh !important;
+        width: 80%;
+        font-size: 25px;
+        height: 220px;
+    }
+    .learn-more p{
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+    .learn-more button{
+        width: 40%;
+        height: 40px;
+    }
+}

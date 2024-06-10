@@ -27,7 +27,18 @@
     font-family: "Roboto Mono";
     src: url(../fonts/Roboto_Mono/RobotoMono-Italic-VariableFont_wght.ttf);
 }
-
+@font-face {
+    font-family: "Effra Light";
+    src: url(../fonts/Effra-Light/Effra-Light.ttf);
+}
+@font-face {
+    font-family: "Effra Bold";
+    src: url(../fonts/effra-bold_EaCxY//Effra-Bold/Effra-Bold.ttf);
+}
+@font-face {
+    font-family: "Bebas Neue";
+    src: url(../fonts/bebas-neue-cufonfonts-webfont/BebasNeue-Regular.woff);
+}
 :root {
     --ibm: "IBM Plex Mono", sans-serif;
     --ubuntu-font: "Ubuntu Sans Mono", sans-serif;
@@ -35,6 +46,9 @@
     --dm: "DM mono", sans-serif;
     --roboto: "Roboto", sans-serif;
     --roboto-mono: "Roboto Mono", sans-serif;
+    --bebas: "Bebas Neue", sans-serif;
+    --effraB: "Effra Bold", sans-serif;
+    --effraL: "Effra light", sans-serif;
     --font-size: 11px;
 }
 
@@ -133,22 +147,21 @@ body {
 .main-title h1 {
     font-size: 24px;
     margin-top: 0;
-    font-family: var(--roboto);
+    font-family: var(--effraB);
 }
 
 .main-title h1 span {
-    font-family: var(--ubuntu-font), Arial, Helvetica, sans-serif;
+    font-family: var(--bebas), Arial, Helvetica, sans-serif;
     font-size: 40px;
     font-weight: bolder;
 }
 
 .main-title p {
-    font-family: var(--ibm);
+    font-family: var(--effraL);
     font-size: 13px;
     margin-top: 10px;
     margin-bottom: 0px;
 }
-
 .bg {
     background-image: url(../content/bg1.png);
     background-size: cover;
