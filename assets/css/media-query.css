@@ -1,1022 +1,131 @@
-@media screen and (min-width: 390px) and (min-height: 844px) {
-    .step h2.step-text {
-        top: 63.5% !important;
-        font-size: 15px;
-    }
-
-    .step h2.step-text2 {
-        top: 74% !important;
-        font-size: 15px;
-    }
-
-    .step h2.step-text3 {
-        top: 84.5% !important;
-        font-size: 15px;
-    }
-
-    .step h2.step-text4 {
-        top: 94.9% !important;
-    }
-
-    .step h2.step-text5 {
-        font-size: 15px;
-        top: 105% !important;
-    }
-
-    div.learn-more {
-        top: 113% !important;
-    }
-}
-
-@media screen and (min-width: 414px) and (min-height: 896px) {
-    .step h2.step-text {
-        top: 56.6% !important;
-        font-size: 16px !important;
-        margin-left: -15px;
-    }
-
-    .step h2.step-text2 {
-        top: 67% !important;
-        font-size: 16px !important;
-    }
-
-    .step h2.step-text3 {
-        top: 77% !important;
-        font-size: 16px !important;
-    }
-
-    .step h2.step-text4 {
-        top: 87.2% !important;
-        font-size: 16px;
-
-    }
-
-    .step h2.step-text5 {
-        top: 97% !important;
-        font-size: 16px;
-    }
-
-    div.learn-more {
-        top: 105% !important;
-    }
-
-}
-
-@media screen and (min-width: 375px) and (min-height: 667px) {
-    .step .step-text {
-        top: 80%;
-        margin-left: -7px;
-    }
-
-    .step .step-text2 {
-        top: 93%;
-    }
-
-    .step .step-text3 {
-        top: 106%;
-    }
-
-    .step .step-text4 {
-        top: 118.5%;
-    }
-
-    .step .step-text5 {
-        font-size: 15px;
-        top: 131.5%;
-    }
-
-    .learn-more {
-        top: 145%;
-    }
-
-    .step .number2 {
-        left: 22% !important;
-    }
-}
-
-@media screen and (min-width: 430px) and (min-height: 932px) {
-    .step h2.step-text {
-        top: 52.5% !important;
-        font-size: 16px;
-    }
-
-    .step h2.step-text2 {
-        top: 62.5% !important;
-        font-size: 16px;
-    }
-
-    .step h2.step-text3 {
-        font-size: 16px;
-        top: 72.5% !important;
-    }
-
-    .step h2.step-text4 {
-        top: 83% !important;
-        margin-left: -15px;
-        font-size: 16px;
-    }
-
-    .step h2.step-text5 {
-        font-size: 16px;
-        top: 92.9% !important;
-    }
-
-    .learn-more {
-        top: 115% !important;
-    }
-
-    .step .number2 {
-        left: 22% !important;
-    }
-
-}
-
-@media screen and (min-width: 360px) and (min-height: 740px) {
-    .step .step-text {
-        top: 77% !important;
-        font-size: 13px;
-    }
-
-    .step .step-text2 {
-        top: 88% !important;
-        font-size: 13px;
-    }
-
-    .step .step-text3 {
-        font-size: 13px;
-        top: 99.5% !important;
-    }
-
-    .step .step-text4 {
-        top: 110.5% !important;
-        font-size: 13px;
-    }
-
-    .step .step-text5 {
-        font-size: 16px;
-        top: 121.5% !important;
-    }
-
-    .learn-more {
-        top: 130% !important;
-    }
-
-}
-
-@media screen and (min-width: 768px) and (min-height: 1024px) {
-    .burguer {
+@media screen and (min-width: 660px){
+    div.burguer{
         display: none;
     }
-
     .collapsed {
-        top: 0;
+        margin: 15px;
+        width: 100vw;
         height: 40px;
+        top: 0 !important;
         background-color: transparent;
     }
 
     .collapsed a {
         display: inline;
         justify-content: space-around;
+        align-items: center;
         padding-right: 20px;
-        margin-left: 15px;
-        font-size: 25px;
-        font-family: var(--roboto);
-    }
-
-    .collapsed .close-icon {
-        display: none;
-    }
-
-    .main-title {
-        height: 40vh;
-        padding: 35px;
-    }
-
-    .main-title h1 span {
-        text-wrap: wrap;
-        font-size: 80px;
-    }
-
-    .main-title p.p1 {
-        font-size: 50px;
-    }
-
-    .main-title p.p2 {
-        width: 45%;
-        font-size: 25px;
-    }
-
-    .section {
-        display: none;
-    }
-
-    .section-img img {
-        display: block;
-    }
-
-    div.step {
-        height: 20%;
-        margin-left: 45px;
-        border-radius: 10px;
-        flex: 1;
-        overflow: hidden;
-    }
-
-    .step:nth-child(2),
-    .step:nth-child(4) {
-        margin-left: 85px;
-    }
-
-    div.step h2.step-text {
-        top: 77% !important;
-        font-size: 30px !important;
-    }
-
-    div.step h2.step-text2 {
-        top: 91% !important;
-        margin-left: -25px;
-        font-size: 30px !important;
-    }
-
-    div.step h2.step-text3 {
-        font-size: 30px !important;
-        top: 105.5% !important;
-    }
-
-    div.step h2.step-text4 {
-        top: 119% !important;
-        font-size: 30px;
-        margin-left: -25px;
-    }
-
-    div.step h2.step-text5 {
-        font-size: 30px !important;
-        top: 134% !important;
-        margin-left: -20px;
-    }
-
-    div.step span.number {
-        font-size: 70px !important;
-        left: 13.2% !important;
-        margin-top: 25px !important;
-    }
-
-    div.step span.number2 {
-        left: 15% !important;
-        font-size: 70px;
-        margin-top: 10px !important;
-    }
-
-    footer div.learn-more {
-        top: 155vh !important;
-        width: 50%;
-        font-size: 25px;
-        height: 200px;
-    }
-
-    .learn-more p {
-        font-size: 15px;
-        margin-bottom: 15px;
-    }
-
-    .learn-more button {
-        width: 40%;
-        height: 40px;
-    }
-
-}
-
-@media screen and (min-width: 820px) and (min-height: 1180px) {
-    .collapsed a {
-        display: inline;
-        justify-content: space-around;
-        padding-right: 20px;
-        padding-left: 20px;
-        font-size: 25px;
-        font-family: var(--roboto);
-    }
-
-    .main-title p.p2 {
-        width: 50%;
-        font-size: 30px;
-    }
-
-    .step:nth-child(2),
-    .step:nth-child(4) {
-        margin-left: 85px;
-    }
-
-    div.step h2.step-text {
-        top: 74% !important;
-        font-size: 30px !important;
-    }
-
-    div.step h2.step-text2 {
-        top: 87.5% !important;
-        margin-left: -25px;
-        font-size: 30px !important;
-    }
-
-    div.step h2.step-text3 {
-        font-size: 30px !important;
-        top: 100% !important;
-    }
-
-    div.step h2.step-text4 {
-        top: 113% !important;
-        font-size: 30px;
-        margin-left: -25px;
-    }
-
-    div.step h2.step-text5 {
-        font-size: 30px !important;
-        top: 126.5% !important;
-        margin-left: -20px;
-    }
-
-    div.step span.number {
-        margin-top: 15px;
-    }
-
-    div.step span.number2 {
-        left: 19.5% !important;
-        margin-top: 10px;
-    }
-
-    footer>div.learn-more {
-        top: 140vh !important;
-        width: 60%;
-        font-size: 25px;
-        height: 210px;
-    }
-
-    .learn-more p {
-        font-size: 15px;
-        margin-bottom: 15px;
-    }
-
-    .learn-more button {
-        width: 40%;
-        height: 40px;
-    }
-
-}
-
-@media screen and (min-width: 820px) and (min-height: 1180px) {
-    .collapsed a {
-        display: inline;
-        justify-content: space-between;
-        padding-right: 20px;
-        padding-left: 20px;
-        margin-top: 10px;
-        font-size: 25px;
-        font-family: var(--roboto);
-    }
-
-    .main-title {
-        margin-top: 20px;
-    }
-
-    .main-title p.p2 {
-        width: 50%;
-        font-size: 30px;
-    }
-
-    .step:nth-child(2),
-    .step:nth-child(4) {
-        margin-left: 85px;
-    }
-
-    div.step h2.step-text {
-        top: 77% !important;
-        font-size: 43px !important;
-        margin-left: -35px !important;
-    }
-
-    div.step h2.step-text2 {
-        top: 91% !important;
-        margin-left: -65px;
-        font-size: 43px !important;
-    }
-
-    div.step h2.step-text3 {
-        font-size: 43px !important;
-        top: 104.5% !important;
-        margin-left: -35px;
-    }
-
-    div.step h2.step-text4 {
-        top: 118% !important;
-        font-size: 43px;
-        margin-left: -75px;
-    }
-
-    div.step h2.step-text5 {
-        font-size: 43px !important;
-        top: 131.5% !important;
-        margin-left: -40px;
-    }
-
-    div.step span.number {
-        margin-top: 15px;
-
-    }
-
-    div.step span.number2 {
-        left: 19.5% !important;
-        margin-top: 10px;
-    }
-
-    footer>div.learn-more {
-        top: 140vh !important;
-        width: 60%;
-        font-size: 25px;
-        height: 210px;
-    }
-
-    .learn-more p {
-        font-size: 15px;
-        margin-bottom: 15px;
-    }
-
-    .learn-more button {
-        width: 40%;
-        height: 40px;
-    }
-
-    @media screen and (min-width: 412px) and (min-height: 915px) {
-        .step h2.step-text {
-            top: 55.5% !important;
-            margin-left: -10px;
-            font-size: 16px;
-        }
-
-        .step h2.step-text2 {
-            top: 65.5% !important;
-            font-size: 16px;
-        }
-
-        .step h2.step-text3 {
-            font-size: 16px;
-            top: 75.5% !important;
-        }
-
-        .step h2.step-text4 {
-            top: 85% !important;
-            margin-left: -15px;
-            font-size: 16px;
-        }
-
-        .step h2.step-text5 {
-            font-size: 16px;
-            top: 95% !important;
-        }
-
-        div.learn-more {
-            top: 103% !important;
-        }
-
-        .step .number2 {
-            left: 22% !important;
-        }
-    }
-}
-
-@media screen and (min-width: 1024px) and (min-height: 1366px) {
-    .burguer {
-        display: none;
-    }
-
-    .collapsed {
-        top: 0;
-        height: 40px;
-        background-color: transparent;
-    }
-
-    .collapsed a {
-        display: inline;
-        justify-content: space-around;
-        padding-right: 20px;
-        margin-left: 15px;
-        font-size: 25px;
-        font-family: var(--roboto);
-    }
-
-    .collapsed .close-icon {
-        display: none;
-    }
-
-    .main-title {
-        height: 40vh;
-        padding: 35px;
-    }
-
-    .main-title h1 span {
-        text-wrap: wrap;
-        font-size: 80px;
-    }
-
-    .main-title p.p1 {
-        font-size: 50px;
-    }
-
-    .main-title p.p2 {
-        width: 45%;
-        font-size: 25px;
-    }
-
-    .section {
-        display: none;
-    }
-
-    .section-img img {
-        display: block;
-    }
-
-    div.step {
-        height: 20%;
-        margin-left: 45px;
-        border-radius: 10px;
-        flex: 1;
-        overflow: hidden;
-    }
-
-    .step:nth-child(2),
-    .step:nth-child(4) {
-        margin-left: 85px;
-    }
-
-    div.step h2.step-text {
-        top: 77% !important;
-        font-size: 43px !important;
-    }
-
-    div.step h2.step-text2 {
-        top: 91% !important;
-        margin-left: -75px;
-        font-size: 43px !important;
-    }
-
-    div.step h2.step-text3 {
-        font-size: 43px !important;
-        top: 104.5% !important;
-    }
-
-    div.step h2.step-text4 {
-        top: 118% !important;
-        font-size: 43px;
-        margin-left: -75px;
-    }
-
-    div.step h2.step-text5 {
-        font-size: 43px !important;
-        top: 132% !important;
-        margin-left: -30px;
-    }
-
-    div.step span.number {
-        font-size: 80px !important;
-        left: 13.2% !important;
-        margin-top: 25px !important;
-    }
-
-    div.step span.number2 {
-        left: 17% !important;
-        font-size: 70px;
-        margin-top: 25px !important;
-    }
-
-    footer div.learn-more {
-        top: 145vh !important;
-        width: 40%;
-        font-size: 25px;
-        height: 190px;
-    }
-
-    .learn-more p {
-        font-size: 15px;
-        margin-bottom: 15px;
-    }
-
-    .learn-more button {
-        width: 40%;
-        height: 40px;
-    }
-
-}
-
-@media screen and (min-width: 344px) and (min-height: 882px) {
-
-    div.step h2.step-text {
-        top: 64.5% !important;
-        font-size: 12px;
-    }
-
-    div.step h2.step-text2 {
-        top: 73.5% !important;
         margin-left: 5px;
-        font-size: 12px !important;
-    }
-
-    div.step h2.step-text3 {
-        font-size: 12px !important;
-        top: 82.5% !important;
-        margin-left: 5px;
-    }
-
-    div.step h2.step-text4 {
-        top: 91.5% !important;
-        font-size: 12px;
-    }
-
-    div.step h2.step-text5 {
-        font-size: 12px !important;
-        top: 100.5% !important;
-    }
-
-    div.step span.number {
-        font-size: 30px !important;
-        left: 16.2% !important;
-        margin-top: 5px !important;
-    }
-
-    div.step span.number2 {
-        left: 23.5% !important;
-        font-size: 30px;
-        margin-top: 5px !important;
-    }
-
-    footer div.learn-more {
-        top: 110vh !important;
-        width: 85%;
         font-size: 25px;
-        height: 220px;
+        font-family: var(--roboto);
     }
 
-    .learn-more p {
-        font-size: 15px;
-        margin-bottom: 15px;
+    .main-title{
+        margin: 35px;
+        height: 25vh;
     }
-
-    .learn-more button {
-        width: 40%;
-        height: 40px;
+    .main-title p.p1 span{
+        font-size: 65px;
     }
-}
-
-
-@media screen and (min-width: 412px) and (min-height: 914px) {
-
-    div.step h2.step-text {
-        top: 55.5% !important;
-        font-size: 16px;
-        margin-left: -5px;
-    }
-
-    div.step h2.step-text2 {
-        top: 65.5% !important;
-        margin-left: -15px;
-        font-size: 16px !important;
-    }
-
-    div.step h2.step-text3 {
-        font-size: 16px !important;
-        top: 75% !important;
-    }
-
-    div.step h2.step-text4 {
-        top: 85.5% !important;
-        font-size: 16px;
-    }
-
-    div.step h2.step-text5 {
-        font-size: 16px !important;
-        top: 95% !important;
-    }
-
-    div.step span.number {
-        font-size: 30px !important;
-        left: 15% !important;
-        margin-top: 10px !important;
-    }
-
-    div.step span.number2 {
-        left: 21% !important;
-        font-size: 30px;
-        margin-top: 10px !important;
-    }
-
-    footer div.learn-more {
-        top: 105vh !important;
-        width: 80%;
-        font-size: 25px;
-        height: 220px;
-    }
-
-    .learn-more p {
-        font-size: 15px;
-        margin-bottom: 15px;
-    }
-
-    .learn-more button {
-        width: 40%;
-        height: 40px;
-    }
-}
-
-@media screen and (min-width: 460px) and (min-height: 620px) {
-    .main-title p.p2 {
-        width: 60%;
-    }
-
-    div.step h2.step-text {
-        top: 76% !important;
-        font-size: 18px;
-        margin-left: -15px;
-    }
-
-    div.step h2.step-text2 {
-        top: 91% !important;
-        margin-left: -25px;
-        font-size: 18px !important;
-    }
-
-    div.step h2.step-text3 {
-        font-size: 18px !important;
-        top: 106% !important;
-    }
-
-    div.step h2.step-text4 {
-        top: 121% !important;
-        margin-left: -15px;
-        font-size: 18px;
-    }
-
-    div.step h2.step-text5 {
-        font-size: 16px !important;
-        top: 135% !important;
-    }
-
-    div.step span.number {
-        font-size: 30px !important;
-        left: 15% !important;
-        margin-top: 10px !important;
-    }
-
-    div.step span.number2 {
-        left: 21% !important;
-        font-size: 30px;
-        margin-top: 10px !important;
-    }
-
-    footer div.learn-more {
-        top: 145vh !important;
-        width: 80%;
-        font-size: 25px;
-        height: 220px;
-    }
-
-    .learn-more p {
-        font-size: 15px;
-        margin-bottom: 15px;
-    }
-
-    .learn-more button {
-        width: 40%;
-        height: 40px;
-    }
-}
-
-@media screen and (min-width: 580px) and (min-height: 660px) {
     .main-title p.p1{
-        font-size: 30px;
-    }
-    .main-title .ubuntu{
-        font-size: 60px;
+        font-size: 35px;
     }
     .main-title p.p2{
-        width: 60%;
-        font-size: 19px;
+        width: 55%;
+        font-size: 28px;
     }
     .section{
         display: none;
     }
-
-    .section-img {
-        text-align: center;
-    }
-
-    .section-img img {
+    .section-img img{
         display: block;
+        width: 90%;
+        margin-left: 45px;
+    }
+    .learn-more{
+        top: 93%;
+    }
+}
+@media screen and (min-width: 950px){
+    .learn-more{
+        font-size: 25px;
+        top: 101%;
+        width: 40%;
+        height: 200px;
     }
 
-    div.step h2.step-text {
-        top: 92% !important;
-        font-size: 23px;
-        margin-left: -35px;
+}
+@media screen and (max-height: 1065px){
+    .learn-more{
+        top: 100% !important;
     }
-
-    div.step h2.step-text2 {
+}
+@media screen and (max-height: 850px){
+    .bg{
+        height: 80%;
+    }
+    .learn-more{
+        top: 130% !important;
+    }
+}
+@media screen and (max-height: 590px){
+    .learn-more{
+        top: 170% !important;
+    }
+}
+@media screen and (min-width: 1340px){
+    .learn-more{
         top: 110% !important;
-        margin-left: -45px;
-        font-size: 23px !important;
+        width: 30%;
     }
-
-    div.step h2.step-text3 {
-        font-size: 23px !important;
-        top: 128% !important;
-        margin-left: -25px;
+}
+@media screen and (max-width: 1600px){
+    .main-title{
+        height: 40vh;
     }
-
-    div.step h2.step-text4 {
-        top: 146% !important;
-        margin-left: -45px;
-        font-size: 23px;
-    }
-
-    div.step h2.step-text5 {
-        font-size: 23px !important;
-        top: 164% !important;
-        margin-left: -20px;
-    }
-
-    div.step span.number {
-        font-size: 50px !important;
-        left: 12% !important;
-        margin-top: 10px !important;
-    }
-
-    div.step span.number2 {
-        left: 16% !important;
+    .main-title p.p1{
         font-size: 50px;
-        margin-top: 10px !important;
     }
-    footer div.learn-more{
-        top: 185vh !important;
+    .main-title p.p1 span{
+        font-size: 90px;
     }
-}
-@media screen and (min-width: 630px) and (min-height: 660px){
-    .burguer {
-        display: none;
+    .bg{
+        height: 100% !important;
     }
-
-    .collapsed {
-        top: 0px;
-        height: 40px;
-        background-color: transparent;
-    }
-
-    .collapsed a {
-        display: inline;
-        justify-content: space-around;
-        padding-right: 20px;
-        margin-left: 15px;
-        font-size: 25px;
-        font-family: var(--roboto);
-    }
-
-    div.step h2.step-text {
-        top: 94% !important;
-        font-size: 25px;
-        margin-left: -35px;
-    }
-
-    div.step h2.step-text2 {
-        top: 113.5% !important;
-        margin-left: -45px;
-        font-size: 25px !important;
-    }
-
-    div.step h2.step-text3 {
-        font-size: 25px !important;
-        top: 132% !important;
-        margin-left: -25px;
-    }
-
-    div.step h2.step-text4 {
-        top: 151% !important;
-        margin-left: -45px;
-        font-size: 25px;
-    }
-
-    div.step h2.step-text5 {
-        font-size: 25px !important;
-        top: 169% !important;
-        margin-left: -30px;
-    }
-
-}
-
-@media screen and (min-width: 785px) and (min-height: 660px){
-    
-    .step:nth-child(1),
-    .step:nth-child(3),
-    .step:nth-child(5) {
-        margin-left: 55px;
-}
-    .step:nth-child(2),
-    .step:nth-child(4) {
-        margin-left: 85px;
-    }   
-    div.step h2.step-text {
-        top: 101% !important;
-        font-size: 30px;
-        margin-left: 5px;
-    }
-
-    div.step h2.step-text2 {
-        top: 124.5% !important;
-        margin-left: -45px;
-        font-size: 30px !important;
-    }
-
-    div.step h2.step-text3 {
-        font-size: 30px !important;
-        top: 147% !important;
-        margin-left: 5px;
-    }
-
-    div.step h2.step-text4 {
-        top: 169% !important;
-        margin-left: -45px;
-        font-size: 30px;
-    }
-
-    div.step h2.step-text5 {
-        font-size: 30px !important;
-        top: 192% !important;
-        margin-left: -20px;
-    }
-    div.step span.number{
-        left: 15.5% !important;
-        font-size: 70px !important;
-    }
-    div.step span.number2{
-        left: 20% !important;
-        font-size: 70px !important;
-    }
-    
-    footer div.learn-more{
-        top: 205vh !important;
-        width: 50%;
+    .learn-more{
+        top: 130% !important;
+        width: 25%;
     }
 }
-
-
-@media screen and (min-width: 850px) and (min-height: 660px){
-    
+@media screen and (min-width: 1590px){
+    .section-img img{
+        margin-left: 75px;
+    }
+    .bg{
+        height: 110%;
+    }
+    .learn-more{
+        top: 120% !important;
+        width: 25%;
+    }
+}
+@media screen and (min-width: 1200px){
+    .main-title{
+        height: 70vh;
+    }
+    .learn-more{
+        top: 260% !important;
+    }
+}
+@media screen and (min-width: 350px){
     .main-title{
         height: 50vh;
     }
-    .step:nth-child(1),
-    .step:nth-child(3),
-    .step:nth-child(5) {
-        margin-left: 55px;
-}
-    .step:nth-child(2),
-    .step:nth-child(4) {
-        margin-left: 85px;
-    }   
-    div.step h2.step-text {
-        top: 118.5% !important;
-        font-size: 35px;
-        margin-left: -5px;
+    .learn-more{
+        top: 200% !important;
+        width: 40%;
     }
-
-    div.step h2.step-text2 {
-        top: 143% !important;
-        margin-left: -45px;
-        font-size: 35px !important;
-    }
-
-    div.step h2.step-text3 {
-        font-size: 35px !important;
-        top: 167% !important;
-        margin-left: 5px;
-    }
-
-    div.step h2.step-text4 {
-        top: 191% !important;
-        margin-left: -55px;
-        font-size: 35px;
-    }
-
-    div.step h2.step-text5 {
-        font-size: 35px !important;
-        top: 216% !important;
-        margin-left: -20px;
-    }
-    div.step span.number{
-        left: 15.5% !important;
-        font-size: 70px !important;
-    }
-    div.step span.number2{
-        left: 20% !important;
-        font-size: 70px !important;
-    }
+    .button{
+        font-size: 20px;
     
-    footer div.learn-more{
-        top: 230vh !important;
-        width: 50%;
-    }
 }

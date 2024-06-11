@@ -27,18 +27,22 @@
     font-family: "Roboto Mono";
     src: url(../fonts/Roboto_Mono/RobotoMono-Italic-VariableFont_wght.ttf);
 }
+
 @font-face {
     font-family: "Effra Light";
     src: url(../fonts/Effra-Light/Effra-Light.ttf);
 }
+
 @font-face {
     font-family: "Effra Bold";
     src: url(../fonts/effra-bold_EaCxY//Effra-Bold/Effra-Bold.ttf);
 }
+
 @font-face {
     font-family: "Bebas Neue";
     src: url(../fonts/bebas-neue-cufonfonts-webfont/BebasNeue-Regular.woff);
 }
+
 :root {
     --ibm: "IBM Plex Mono", sans-serif;
     --ubuntu-font: "Ubuntu Sans Mono", sans-serif;
@@ -72,7 +76,7 @@ body {
 }
 
 .burguer {
-    background-color: #541d97;
+    background-color: #8400ff;
     padding: 8px;
     margin-bottom: 0;
     text-align: center;
@@ -162,12 +166,13 @@ body {
     margin-top: 10px;
     margin-bottom: 0px;
 }
+
 .bg {
     background-image: url(../content/bg1.png);
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    height: 180vh;
+    height: 80vh;
     z-index: 100;
     overflow: hidden;
 }
@@ -175,7 +180,7 @@ body {
 .section {
     overflow: hidden;
     font-family: var(--ubuntu-font);
-    background-color: #53008682;
+    background-color: #521c84;
     box-shadow: inset 0px 5px 5px -5px white;
     text-align: center;
     margin: 10px 20px 20px 20px;
@@ -199,100 +204,93 @@ body {
     font-family: var(--ubuntu-font);
     font-size: 15px;
 }
-.section-img img{
+
+.section-img img {
     display: none;
     width: 100vw;
 }
+
 .steps {
-    padding: 10px;
-    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     font-family: var(--roboto);
     overflow: hidden;
 }
 
-    .step {
-        text-wrap: nowrap;
-        width: 80vw;
-        height: 15%;
-        text-align: left;
-        background-color: transparent;
-        padding: 0 20px 20px 20px;
-        margin: 10px;
-        border-radius: 10px;
-        flex: 1;
-        overflow: hidden;
-    }
-
-.step img {
+.step {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-wrap: nowrap;
+    width: 95vw;
+    height: 15%;
+    text-align: left;
+    background-color: transparent;
+    padding: 0 20px 20px 20px;
+    margin: 10px;
+    border-radius: 10px;
+    flex: 1;
     overflow: hidden;
+}
+
+.button {
+    box-shadow: inset 0px 5px 5px -5px white;
+    display: inline-block;
+    background-color: #521c8477;
+    width: 80vw;
+    padding: 20px 50px 20px 50px;
+    margin-right: 25px;
+    border-radius: 200px;
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    font-family: Arial, sans-serif;
     position: relative;
-    width: 100%;
-    height: 100%;
 }
 
-.step .number {
-    text-align: left;
-    font-size: 35px;
+.button::before {
     position: absolute;
-    left: 15%;
-    margin-top: 8px;
+    left: 0;
+    padding: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #521c849b;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+}
+.button[data-num="1"]{
+    margin-top: 25px;
+}
+.button[data-num="1"]::before {
+    content: '1';
 }
 
-.step .number2 {
-    text-align: left;
-    font-size: 35px;
-    margin-top: 5px;
-    left: 20.5% !important;
-    position: absolute;
+.button[data-num="2"]::before {
+    content: "2";
 }
 
-.step .step-text {
-    font-family: var(--roboto);
-    font-weight: lighter;
-    font-size: 14px;
-    position: absolute;
-    top: 55.9%;
-    left: 28%;
+.button[data-num="3"]::before {
+    content: "3";
 }
 
-.step .step-text2 {
-    font-family: var(--roboto);
-    font-size: var(--font-size);
-    position: absolute;
-    top: 65.5%;
-    font-size: 14px;
-    margin-left: -15px;
-    left: 37%;
+.button[data-num="4"]::before {
+    content: "4";
 }
 
-.step .step-text3 {
-    font-family: var(--roboto);
-    font-size: 14px;
-    position: absolute;
-    top: 75.7%;
-    left: 28%;
-}
-
-.step .step-text4 {
-    font-family: var(--roboto);
-    font-size: 14px;
-    margin-left: -10px;
-    position: absolute;
-    top: 85.7%;
-    left: 37%;
-}
-
-.step .step-text5 {
-    font-family: var(--roboto);
-    font-size: 14px;
-    position: absolute;
-    top: 95.5%;
-    left: 30%;
+.button[data-num="5"]::before {
+    content: "5";
 }
 
 .step:nth-child(2),
 .step:nth-child(4) {
-    margin-left: 35px;
+    margin-left: 70px;
 }
 
 .step h2 {
@@ -303,10 +301,10 @@ body {
 .learn-more {
     box-shadow: inset 0px 5px 5px -5px white;
     position: absolute;
-    top: 110%;
+    top: 75vh;
     left: 50%;
     transform: translate(-50%);
-    width: 80%;
+    width: 60%;
     height: 150px;
     text-align: center;
     margin: 10px 0;
@@ -331,7 +329,7 @@ body {
     background-color: #068e3f;
     box-shadow: 1px 1px 3px black;
     color: #fff;
-    padding: 1px;
+    padding: 4px;
     width: 60%;
     border-radius: 10px;
     text-decoration: none;
