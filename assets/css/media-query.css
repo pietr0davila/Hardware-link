@@ -1,5 +1,17 @@
 
 
+@media screen and (max-width: 480px){
+    .main-title p.p2 {
+        font-size: 20px;
+    }
+    .bg{
+        height: 120vh;
+    }
+    div.learn-more{
+        top: 150% !important;
+    }
+}
+
 @media screen and (min-width: 660px){
     div.burguer{
         display: none;
@@ -51,127 +63,9 @@
     }
 }
 
-@media screen and (min-width: 950px){
-    .learn-more{
-        font-size: 25px;
-        top: 101%;
-        width: 40%;
-        height: 200px;
-    }
-
-}
-
-
-@media screen and (max-width: 950px){
+@media screen and (min-width: 440px) and (max-width: 915px){
     div.learn-more{
-        top: 170% !important;
-        width: 30% !important;
-        height: 130px;
-    }
-}
-@media screen and (min-width: 970px){
-    div.learn-more{
-       top: 180% !important; 
-       width: 33%;
-    }
-}
-
-@media screen and (min-width: 1300px){
-    div.learn-more{
-        top: 190% !important;
-        width: 28%;
-    }
-
-}
-@media screen and (min-width: 1950px){
-    div.learn-more{
-        top: 220% !important;
-    }
-}
-@media screen and (max-height: 1065px){
-    .learn-more{
-        top: 100% !important;
-    }
-}
-
-@media screen and (min-height: 950px){
-    .main-title{
-        height: 35vh !important;
-    }
-    .main-title h1 p.p1{
-        font-size: 70px;
-    }
-    .main-title h1 p.p1 span{
-        font-size: 120px;
-    }
-    .main-title p.p2{
-        width: 40%;
-    }
-    div.learn-more{
-        top: 155% !important;
-        width: 18% !important;
-        height: 180px !important;
-    }
-}
-
-@media screen and (max-height: 850px){
-    .bg{
-        height: 80%;
-    }
-    .learn-more{
         top: 130% !important;
-    }
-}
-@media screen and (max-height: 590px){
-    .learn-more{
-        top: 170% !important;
-    }
-}
-@media screen and (min-width: 1340px){
-    .learn-more{
-        top: 110% !important;
-        width: 30%;
-    }
-}
-
-@media screen and (max-width: 1600px){
-    .main-title{
-        height: 40vh;
-    }
-    .main-title p.p1{
-        font-size: 50px;
-    }
-    .main-title p.p1 span{
-        font-size: 90px;
-    }
-    .bg{
-        height: 100% !important;
-    }
-    .learn-more{
-        top: 130% !important;
-        width: 25%;
-    }
-}
-
-@media screen and (min-width: 1200px){
-    .main-title{
-        height: 70vh;
-    }
-    .learn-more{
-        top: 260% !important;
-    }
-}
-
-@media screen and (min-width: 1590px){
-    .section-img img{
-        margin-left: 75px;
-    }
-    .bg{
-        height: 110%;
-    }
-    div.learn-more{
-        top: 100% !important;
-        width: 25%;
     }
 }
 @media screen and (min-width: 350px){
@@ -193,48 +87,70 @@
     }
 }
 
+@media screen and (min-width: 850px)  and (min-height: 700px){
+    div.learn-more{
+        top: 170% !important;
+        width: 30%;
+    }
+}
 
 
-@media screen and (max-height: 590px){
-    .learn-more{
+@media screen and (min-width: 1500px){
+    .bg{
+        height: 160vh;
+    }
+    div.learn-more{
         top: 190% !important;
     }
 }
-@media screen and (min-height: 600px){
-    .learn-more{
-        top: 180% !important;
+@media screen and (min-width: 1750px){
+    .bg{
+        height: 190vh;
     }
-}
-@media screen and (min-height: 730px){
-    .learn-more{
-        top: 160% !important;
-    }
-}
-
-@media screen and (min-height: 870px){
-    .learn-more{
-        top: 140% !important;
-    }
-}
-
-@media screen and (min-height: 1000px){
-    .learn-more{
-        top: 125% !important;
-    }
-}
-
-@media screen and (min-height: 1200px){
-    .learn-more{
-        top: 110% !important;
-    }
-}
-
-
-@media screen and (min-width: 1700px){
     div.learn-more{
-        top: 145% !important;
-        width: 30%;
-        height: 210px !important;
+        top: 200% !important;
+        width: 15%;
+    }
+}
+@media screen and (min-height: 800px){
+    .bg{
+        height: 120vh;
+    }
+    div.learn-more{
+        top: 155% !important;
+    }
+}
+@media screen and (min-width: 1900px) and (max-height: 1200px){
+    .bg{
+        height: 130vh;
+    }
+    div.learn-more{
+        top: 170% !important;
+    }
+}
+@media screen and (min-width: 1000px) and (min-height: 700px){
+    .bg{
+        height: 100vh;
+    }
+    div.learn-more{
+        top: 130% !important;
+        width: 20%
+    }
+@media screen and (min-width: 1300px){
+    div.learn-more{
+        top: 135% !important;
+        width: 20%;
     }
 }
 
+
+@media screen and (min-width: 1000px) and (max-height: 1100px){
+    .bg{
+        height: 100vh;
+    }
+    div.learn-more{
+        top: 155% !important;
+        width: 30%;
+    }
+}
+}
