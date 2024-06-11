@@ -1,3 +1,5 @@
+
+
 @media screen and (min-width: 660px){
     div.burguer{
         display: none;
@@ -9,7 +11,9 @@
         top: 0 !important;
         background-color: transparent;
     }
-
+    .close-icon{
+        display: none;
+    }
     .collapsed a {
         display: inline;
         justify-content: space-around;
@@ -43,9 +47,10 @@
         margin-left: 45px;
     }
     .learn-more{
-        top: 93%;
+        top: 101% !important;
     }
 }
+
 @media screen and (min-width: 950px){
     .learn-more{
         font-size: 25px;
@@ -55,11 +60,60 @@
     }
 
 }
+
+
+@media screen and (max-width: 950px){
+    div.learn-more{
+        top: 170% !important;
+        width: 30% !important;
+        height: 130px;
+    }
+}
+@media screen and (min-width: 970px){
+    div.learn-more{
+       top: 180% !important; 
+       width: 33%;
+    }
+}
+
+@media screen and (min-width: 1300px){
+    div.learn-more{
+        top: 190% !important;
+        width: 28%;
+    }
+
+}
+@media screen and (min-width: 1950px){
+    div.learn-more{
+        top: 220% !important;
+    }
+}
 @media screen and (max-height: 1065px){
     .learn-more{
         top: 100% !important;
     }
 }
+
+@media screen and (min-height: 950px){
+    .main-title{
+        height: 35vh !important;
+    }
+    .main-title h1 p.p1{
+        font-size: 70px;
+    }
+    .main-title h1 p.p1 span{
+        font-size: 120px;
+    }
+    .main-title p.p2{
+        width: 40%;
+    }
+    div.learn-more{
+        top: 155% !important;
+        width: 18% !important;
+        height: 180px !important;
+    }
+}
+
 @media screen and (max-height: 850px){
     .bg{
         height: 80%;
@@ -79,6 +133,7 @@
         width: 30%;
     }
 }
+
 @media screen and (max-width: 1600px){
     .main-title{
         height: 40vh;
@@ -97,18 +152,7 @@
         width: 25%;
     }
 }
-@media screen and (min-width: 1590px){
-    .section-img img{
-        margin-left: 75px;
-    }
-    .bg{
-        height: 110%;
-    }
-    .learn-more{
-        top: 120% !important;
-        width: 25%;
-    }
-}
+
 @media screen and (min-width: 1200px){
     .main-title{
         height: 70vh;
@@ -117,15 +161,80 @@
         top: 260% !important;
     }
 }
+
+@media screen and (min-width: 1590px){
+    .section-img img{
+        margin-left: 75px;
+    }
+    .bg{
+        height: 110%;
+    }
+    div.learn-more{
+        top: 100% !important;
+        width: 25%;
+    }
+}
 @media screen and (min-width: 350px){
     .main-title{
         height: 50vh;
     }
+    .main-title p.p1{
+        font-size: 40px;
+    }
+    .main-title p.p1 span{
+        font-size: 60px;
+    }
     .learn-more{
         top: 200% !important;
-        width: 40%;
+        width: 60%;
     }
     .button{
         font-size: 20px;
-    
+    }
 }
+
+
+
+@media screen and (max-height: 590px){
+    .learn-more{
+        top: 190% !important;
+    }
+}
+@media screen and (min-height: 600px){
+    .learn-more{
+        top: 180% !important;
+    }
+}
+@media screen and (min-height: 730px){
+    .learn-more{
+        top: 160% !important;
+    }
+}
+
+@media screen and (min-height: 870px){
+    .learn-more{
+        top: 140% !important;
+    }
+}
+
+@media screen and (min-height: 1000px){
+    .learn-more{
+        top: 125% !important;
+    }
+}
+
+@media screen and (min-height: 1200px){
+    .learn-more{
+        top: 110% !important;
+    }
+}
+
+
+@media screen and (min-width: 1700px){
+    div.learn-more{
+        top: 145% !important;
+        width: 30%;
+        height: 210px !important;
+    }
+}
+
