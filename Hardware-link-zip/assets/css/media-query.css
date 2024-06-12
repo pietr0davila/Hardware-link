@@ -10,13 +10,12 @@
 @media screen and (max-width: 600px){
     .main-title p.p2 {
         font-size: 20px;
-        width: 75%;
-    }
-    .bg{
-        height: 120vh;
+        width: 90%;
+        margin: 5px;
     }
     div.learn-more{
-        top: 150% !important;
+        margin-top: 0;
+        width: 60% !important;
     }
 }
 @media screen and (min-width: 660px){
@@ -69,20 +68,10 @@
         margin-left: 45px;
     }
     div.learn-more{
-        top: 170% !important;
-        width: 20% !important;
-    }
-}
-
-@media screen and (min-width: 440px) and (max-width: 915px){
-    .bg{
-        height: 170vh !important;
-    }
-    div.learn-more{
-        top: 120% !important;
         width: 40% !important;
     }
 }
+
 @media screen and (min-width: 350px){
     .main-title{
         height: 50vh;
@@ -102,84 +91,8 @@
     }
 }
 
-@media screen and (min-width: 850px)  and (min-height: 700px){
-    .bg{
-        height: 140vh !important;
-    }
+@media screen and (min-width: 850px){
     div.learn-more{
-        margin-top: 150px !important;
-        top: 120% !important;
-        width: 30%;
+        width: 30% !important;
     }
-}
-
-
-@media screen and (min-width: 1500px){
-   
-    div.learn-more{
-        margin-top: 250px !important;
-        top: 190% !important;
-    }
-}
-@media screen and (min-width: 1750px){
-    .bg{
-        height: 190vh;
-    }
-    div.learn-more{
-        top: 200% !important;
-        width: 15%;
-    }
-}
-@media screen and (min-height: 800px){
-    .bg{
-        height: 120vh;
-    }
-    div.learn-more{
-        top: 170% !important;
-    }
-}
-@media screen and (min-width: 1900px) and (max-height: 1200px){
-    .bg{
-        height: 150vh;
-    }
-    div.learn-more{
-        top: 170% !important;
-    }
-}
-@media screen and (min-height: 500px){
-    .bg{
-        height: 230vh;
-    }
-    div.learn-more{
-        margin-top: 400px !important;
-        width: 15%;
-    }
-}
-@media screen and (min-width: 1000px) and (min-height: 700px){
-    div.learn-more{
-        
-        top: 130% !important;
-        width: 20%
-    }
-@media screen and (min-width: 1300px){
-    .bg{
-        height: 135vh !important;
-    }
-    div.learn-more{
-        margin-top: 150px;
-        top: 135% !important;
-        width: 20% !important;
-    }
-}
-
-
-@media screen and (min-width: 1000px) and (max-height: 1100px){
-    .bg{
-        height: 100vh;
-    }
-    div.learn-more{
-        top: 155% !important;
-        width: 30%;
-    }
-}
 }
