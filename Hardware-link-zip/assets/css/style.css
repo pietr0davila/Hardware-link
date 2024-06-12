@@ -134,7 +134,10 @@ body {
 .collapsed a i {
     margin-right: 7px;
 }
-
+.collapsed a i.current,
+.collapsed a.current{
+    color: #8400ff;
+}
 .collapsed .close-icon {
     position: absolute;
     left: 92%;
