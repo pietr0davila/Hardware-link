@@ -1,0 +1,185 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+
+
+@media screen and (max-width: 600px){
+    .main-title p.p2 {
+        font-size: 20px;
+        width: 75%;
+    }
+    .bg{
+        height: 120vh;
+    }
+    div.learn-more{
+        top: 150% !important;
+    }
+}
+@media screen and (min-width: 660px){
+    div.burguer{
+        display: none;
+    }
+    .collapsed {
+        margin: 15px;
+        width: 100vw;
+        height: 40px;
+        top: 0 !important;
+        background-color: transparent;
+    }
+    .close-icon{
+        display: none;
+    }
+    .collapsed a {
+        display: inline;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        padding-right: 20px;
+        margin-left: 5px;
+        font-size: 25px;
+        font-family: var(--roboto);
+    }
+
+    .main-title{
+        margin: 35px;
+        height: 25vh;
+    }
+    .main-title p.p1 span{
+        font-size: 65px;
+    }
+    .main-title p.p1{
+        font-size: 35px;
+    }
+    .main-title p.p2{
+        width: 55%;
+        font-size: 28px;
+    }
+    .section{
+        display: none;
+    }
+    .section-img img{
+        display: block;
+        width: 90%;
+        margin-left: 45px;
+    }
+    div.learn-more{
+        top: 170% !important;
+        width: 20% !important;
+    }
+}
+
+@media screen and (min-width: 440px) and (max-width: 915px){
+    .bg{
+        height: 170vh !important;
+    }
+    div.learn-more{
+        top: 120% !important;
+        width: 40% !important;
+    }
+}
+@media screen and (min-width: 350px){
+    .main-title{
+        height: 50vh;
+    }
+    .main-title p.p1{
+        font-size: 40px;
+    }
+    .main-title p.p1 span{
+        font-size: 60px;
+    }
+    .learn-more{
+        top: 200% !important;
+        width: 60% !important;
+    }
+    .button{
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 850px)  and (min-height: 700px){
+    .bg{
+        height: 140vh !important;
+    }
+    div.learn-more{
+        margin-top: 150px !important;
+        top: 120% !important;
+        width: 30%;
+    }
+}
+
+
+@media screen and (min-width: 1500px){
+   
+    div.learn-more{
+        margin-top: 250px !important;
+        top: 190% !important;
+    }
+}
+@media screen and (min-width: 1750px){
+    .bg{
+        height: 190vh;
+    }
+    div.learn-more{
+        top: 200% !important;
+        width: 15%;
+    }
+}
+@media screen and (min-height: 800px){
+    .bg{
+        height: 120vh;
+    }
+    div.learn-more{
+        top: 170% !important;
+    }
+}
+@media screen and (min-width: 1900px) and (max-height: 1200px){
+    .bg{
+        height: 150vh;
+    }
+    div.learn-more{
+        top: 170% !important;
+    }
+}
+@media screen and (min-height: 500px){
+    .bg{
+        height: 230vh;
+    }
+    div.learn-more{
+        margin-top: 400px !important;
+        width: 15%;
+    }
+}
+@media screen and (min-width: 1000px) and (min-height: 700px){
+    div.learn-more{
+        
+        top: 130% !important;
+        width: 20%
+    }
+@media screen and (min-width: 1300px){
+    .bg{
+        height: 135vh !important;
+    }
+    div.learn-more{
+        margin-top: 150px;
+        top: 135% !important;
+        width: 20% !important;
+    }
+}
+
+
+@media screen and (min-width: 1000px) and (max-height: 1100px){
+    .bg{
+        height: 100vh;
+    }
+    div.learn-more{
+        top: 155% !important;
+        width: 30%;
+    }
+}
+}

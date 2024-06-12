@@ -1,0 +1,176 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+@charset "UTF-8";
+
+.main-title-computer {
+    margin: 0;
+    text-align: left;
+    padding: 0px 50px 0px 20px;
+    background-image: url(../content/bg3.png);
+    height: 40vh;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.main-title-computer h1 {
+    width: 100%;
+    font-size: 24px;
+    margin-top: 0;
+    font-family: var(--effraL);
+}
+.border{
+    width: 95%;
+    height: 2px;
+    background-color: var(--main-color);
+}
+.main-title-computer h1 span {
+    font-family: var(--bebas), Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: normal;
+}
+.main-title-computer p.p2 span{
+    font-family: var(--bebas), Arial, Helvetica, sans-serif;
+    font-size: 21px;
+}
+.main-title-computer p.p2{
+    font-size: 12px;
+    font-weight: lighter;
+}
+
+.main-title-computer p {
+    font-family: var(--effraL);
+    font-size: 12px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+.main-title-computer p.p1{
+    width: 20%;
+    text-wrap: nowrap;
+    font-weight: lighter;
+    font-size: 24px;
+}
+.bg {
+    background-image: url(../content/bg1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 180vh;
+    z-index: 100;
+    overflow: hidden;
+}
+.arrow {
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    -webkit-animation: key_down 1.5s ease-in-out infinite;
+            animation: key_down 1.5s ease-in-out infinite;
+}
+.arrow i{
+    margin-right: 15px;
+}
+@-webkit-keyframes key_down {
+    0% {
+        -webkit-transform: translateY(0);
+                transform: translateY(0);
+    }
+    50% {
+        -webkit-transform: translateY(5px);
+                transform: translateY(5px);
+    }
+    100% {
+        -webkit-transform: translateY(0);
+                transform: translateY(0);
+    }
+}
+@keyframes key_down {
+    0% {
+        -webkit-transform: translateY(0);
+                transform: translateY(0);
+    }
+    50% {
+        -webkit-transform: translateY(5px);
+                transform: translateY(5px);
+    }
+    100% {
+        -webkit-transform: translateY(0);
+                transform: translateY(0);
+    }
+}
+.computers{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.computer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    margin: 25px 25px 25px 5px;
+    padding: 10px;
+    -webkit-box-shadow: var(--box-shadow);
+            box-shadow: var(--box-shadow); 
+    border-radius: 8px;
+    background-color: var(--main-color);
+    width: 40%;
+    height: 250px;
+}
+
+.computer img {
+    width: 150px;
+    height: auto;
+    margin-bottom: 10px; 
+}
+
+.computer .text {
+    font-family: var(--bebas);
+    font-size: 18px;
+    color: whitesmoke;
+    margin-bottom: 10px; 
+}
+.computer .cta-button {
+    padding: 10px 20px;
+    background-color: var(--cta-button);
+    font-family: var(--effraB);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 10px;
+    cursor: pointer;
+    -webkit-transition: background-color 0.3s ease;
+    -o-transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease;
+}
+
+/* Correção do seletor para o botão */
+.computer .cta-button button {
+    background-color: transparent;
+    border: none;
+    color: whitesmoke;
+    cursor: pointer;
+    font-family: inherit; /* Use a mesma font-family definida para o .cta-button */
+}
+
+div.container div.computers div.computer div.cta-button:hover {
+    background-color: #8400ff;
+    cursor: pointer;
+}

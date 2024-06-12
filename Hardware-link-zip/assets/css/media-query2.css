@@ -1,0 +1,68 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+
+@media screen and (min-width: 400px){
+    .border{
+        width: 60% !important;
+    }
+    .main-title-computer p.p2 span{
+        font-size: 25px;
+    }
+    .main-title-computer p.p2{
+        font-size: 14.5px;
+    }
+}
+@media screen and (min-width: 600px){
+    .main-title-computer{
+        margin-left: 15px !important;
+        margin-top: 40px !important;
+    }
+    .main-title-computer p.p2 span{
+        font-size: 30px;
+    }
+    .main-title-computer p.p2{
+        font-size: 17.5px;
+    }
+    .bg{
+        height: 60vh !important;
+    }
+    .border{
+        width: 50% !important;
+    }
+    .computer{
+        margin: 15px 15px 15px 5px;
+        width: 30%;
+    }
+}
+@media screen and (min-width: 750px){
+    .border{
+        width: 40% !important;
+    }
+    .main-title-computer p.p2 span{
+        font-size: 35px;
+    }
+    .main-title-computer p.p2{
+        font-size: 20.5px;
+    }
+}
+@media screen and (min-width: 850px){
+    .border{
+        width: 30% !important;
+    }
+    .main-title-computer p.p2 span{
+        font-size: 40px;
+    }
+    .main-title-computer p.p2{
+        font-size: 23.5px;
+    }
+}
+@media screen and (min-width: 1000px){
+    .border{
+        width: 20% !important;
+    }
+}
